@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > connect > body-parser > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > compression > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > connect-timeout > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > express-session > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > morgan > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > serve-index > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > serve-static > send > debug:
+        patched: '2021-05-17T13:44:33.972Z'
+  'npm:minimatch:20160620':
+    - grunt-karma-coveralls > karma-coverage > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma-coverage > ibrik > fileset > glob > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - grunt-karma-coveralls > karma-coverage > ibrik > fileset > glob > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - grunt-karma-coveralls > glob > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma-coverage > ibrik > istanbul > fileset > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - grunt-karma-coveralls > karma-coverage > istanbul > fileset > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - grunt-karma-coveralls > karma-coverage > ibrik > istanbul > fileset > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma-coverage > ibrik > fileset > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+    - grunt-karma-coveralls > karma-coverage > ibrik > fileset > minimatch:
+        patched: '2021-05-17T13:44:33.972Z'
+  'npm:ms:20170412':
+    - karma > connect > connect-timeout > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > body-parser > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > compression > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > connect-timeout > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > express-session > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > morgan > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > serve-index > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > serve-static > send > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > serve-static > send > debug > ms:
+        patched: '2021-05-17T13:44:33.972Z'
+    - karma > connect > serve-favicon > ms:
+        patched: '2021-05-17T13:44:33.972Z'
