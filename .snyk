@@ -1,0 +1,130 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > connect > body-parser > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > compression > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > connect-timeout > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > express-session > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > morgan > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-index > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-static > send > debug:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:hoek:20180212':
+    - phantomjs > request > hawk > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > coveralls > request > hawk > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:mime:20170907':
+    - karma > connect > serve-static > send > mime:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:minimatch:20160620':
+    - grunt-karma-coveralls > karma-coverage > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-coverage > ibrik > fileset > glob > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > karma-coverage > ibrik > fileset > glob > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > glob > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-coverage > ibrik > istanbul > fileset > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > karma-coverage > istanbul > fileset > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > karma-coverage > ibrik > istanbul > fileset > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-coverage > ibrik > fileset > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > karma-coverage > ibrik > fileset > minimatch:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:ms:20170412':
+    - karma > connect > connect-timeout > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > body-parser > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > compression > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > connect-timeout > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > express-session > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > morgan > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-index > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-static > send > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-static > send > debug > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-favicon > ms:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:negotiator:20160616':
+    - karma > connect > compression > accepts > negotiator:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma > connect > serve-index > accepts > negotiator:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:request:20160119':
+    - phantomjs > request:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request > tough-cookie:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:tunnel-agent:20170305':
+    - phantomjs > request > tunnel-agent:
+        patched: '2021-05-17T13:33:34.070Z'
+    - karma-phantomjs-launcher > phantomjs > request > tunnel-agent:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-karma-coveralls > coveralls > request > tunnel-agent:
+        patched: '2021-05-17T13:33:34.070Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2021-05-17T13:33:34.070Z'
+  'npm:ws:20160920':
+    - karma > socket.io > socket.io-client > ws:
+        patched: '2021-05-17T13:33:34.070Z'
