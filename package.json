@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-uglify": "~0.11.1",
     "grunt-contrib-copy": "~0.7.0",
     "grunt-contrib-jshint": "~0.11.0",
     "grunt-contrib-concat": "~0.5.0",
@@ -29,7 +29,7 @@
 
     "phantomjs": "~1.9.15",
     "karma": "~0.12.31",
-    "karma-coverage": "~0.2.7",
+    "karma-coverage": "~2.0.2",
     "karma-qunit": "~0.1.4",
     "karma-phantomjs-launcher": "~0.1.4",
     "grunt-karma-coveralls": "~2.5.3",
