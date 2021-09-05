@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - grunt-karma-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - grunt-karma-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T06:30:43.254Z'
