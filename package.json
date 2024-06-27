@@ -36,7 +36,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-env": "^7.24.7",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-json": "^6.0.0",
