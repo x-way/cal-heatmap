@@ -71,7 +71,7 @@
     "sass": "^1.56.1",
     "selenium-webdriver": "^4.7.1",
     "ts-jest": "^29.0.3",
-    "tsd": "^0.30.0",
+    "tsd": "^0.31.1",
     "typescript": "^5.0.0"
   },
   "scripts": {
