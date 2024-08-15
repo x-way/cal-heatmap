@@ -62,7 +62,7 @@
     "jest-dev-server": "^10.0.0",
     "jest-environment-jsdom": "^29.3.1",
     "jsdom": "^24.0.0",
-    "postcss": "^8.4.20",
+    "postcss": "^8.4.40",
     "prettier": "^3.0.0",
     "puppeteer": "^22.0.0",
     "rollup": "^4.0.0",
